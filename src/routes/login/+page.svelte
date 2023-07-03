@@ -1,13 +1,7 @@
 <div class='flex justify-center flex-col items-center'>
-  <form class='flex flex-col gap-2 m-10'>
-    <div class='flex flex-row gap-4'>
-      <label class='w-32' for='email'>Email</label>
-      <input type="text" id='email' placeholder='email'/>
-    </div>
-    <div class='flex flex-row gap-4'>
-      <label class='w-32'for='password'>Password</label>
-      <input type='password' id='password' placeholder='password'/>
-    </div>
+  <form class='flex flex-col justify-center items-center gap-2 m-10'>
+    <input type="text" id='email' placeholder='email' class='rounded border border-gray-700 px-2'/>
+    <input type="password" id='password' placeholder='password' class='rounded border border-gray-700 px-2'/>
     <button class='bg-teal-700 text-white rounded w-min px-5'on:click={login}>Login</button>
   </form>
   <div class='flex justify-center items-center'>
